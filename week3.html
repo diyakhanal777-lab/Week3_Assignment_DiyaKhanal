@@ -1,11 +1,217 @@
-<!DOCTYPE html>
+https://github.com/diyakhanal777-lab/Week3_Assignment_DiyaKhanal.git<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<title>My HTML Practical Page</title>
 </head>
 <body>
-    
+
+  <h1>My HTML Practical Page</h1>
+  <p>This page demonstrates different <strong>HTML</strong> tags.</p>
+
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#images">Images</a> |
+    <a href="#table">Table</a> |
+    <a href="#form">Form</a>
+  </nav>
+
+  <hr>
+
+  <!-- Headings -->
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6>
+
+  <p>This is a paragraph. HTML is used to create the structure of a webpage.</p>
+  <hr>
+
+  <!-- Text formatting -->
+  <p><b>This is bold text.</b></p>
+  <p><strong>This is important text.</strong></p>
+  <p><i>This is italic text.</i></p>
+  <p><u>This is underlined text.</u></p>
+  <p><mark>This is highlighted text.</mark></p>
+  <p><small>This is small text.</small></p>
+  <p><del>This is deleted text.</del></p>
+  <p>H<sub>2</sub>O</p>
+  <p>x<sup>2</sup></p>
+
+  <!-- Images -->
+  <h2 id="images">Images</h2>
+  <img src="https://via.placeholder.com/150x100.png?text=Student+studying" alt="Student studying" width="150">
+
+  <!-- Links -->
+  <h2>Links</h2>
+  <p>Visit <a href="https://www.google.com">Google</a></p>
+  <p>Open in a new tab: <a href="https://www.github.com" target="_blank">GitHub</a></p>
+
+  <!-- Unordered list -->
+  <h2>Unordered List</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <!-- Ordered list -->
+  <h2>Ordered List</h2>
+  <ol type="i">
+    <li>Open VS Code</li>
+    <li>Create HTML file</li>
+    <li>Write HTML code</li>
+    <li>Open in browser</li>
+  </ol>
+
+  <!-- Description list -->
+  <h2>Description List</h2>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+  </dl>
+
+  <!-- Div and span -->
+  <h2>Div and Span</h2>
+  <div>
+    <h3>Student Information</h3>
+    <p>My name is <span style="color:rgb(176, 176, 228); font-weight:bold;">John</span>.</p>
+  </div>
+
+  <!-- Table -->
+  <h2 id="table">Student Table</h2>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <caption>Student Marks</caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Marks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>HTML</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>Sarah</td>
+        <td>CSS</td>
+        <td>90</td>
+      </tr>
+      <tr>
+        <td>David</td>
+        <td>JavaScript</td>
+        <td>78</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">Average</td>
+        <td>84.3</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <!-- Form -->
+  <h2 id="form">Student Registration Form</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age"><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <p>Skills:</p>
+    <input type="checkbox" id="html" name="skills" value="html">
+    <label for="html">HTML</label>
+    <input type="checkbox" id="css" name="skills" value="css">
+    <label for="css">CSS</label>
+    <input type="checkbox" id="js" name="skills" value="js">
+    <label for="js">JavaScript</label><br><br>
+
+    <label for="course">Choose Course:</label>
+    <select id="course" name="course">
+      <option value="">-- Select --</option>
+      <option value="frontend">Frontend Development</option>
+      <option value="backend">Backend Development</option>
+      <option value="fullstack">Full Stack Development</option>
+    </select><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+    <label for="file">Upload File:</label>
+    <input type="file" id="file" name="file"><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+
+  <!-- Quotation -->
+  <h2>Quotation</h2>
+  <blockquote>
+    The best way to learn programming is by writing code.
+  </blockquote>
+  <p>Someone said: <q>Practice makes perfect.</q></p>
+
+  <!-- Code example -->
+  <h2>Code Example</h2>
+  <p>Example of an HTML tag:</p>
+  <pre>
+This is a preformatted text block.
+It preserves whitespace and line breaks.
+
+
+
+  </pre>
+
+  <!-- Audio -->
+  <h2>Audio</h2>
+  <audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Video -->
+  <h2>Video</h2>
+  <video width="400" controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Details and summary -->
+  <h2>Details and Summary</h2>
+  <details>
+    <summary>Click to learn about HTML</summary>
+    <p>HTML stands for HyperText Markup Language. It is used to structure content on web pages.</p>
+  </details>
+
+  <hr>
+  <footer>
+    <p>&copy; 2026 My HTML Practical Page</p>
+    <p>Created for HTML practice.</p>
+  </footer>
+
 </body>
 </html>
